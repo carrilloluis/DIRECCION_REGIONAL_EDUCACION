@@ -1,0 +1,14 @@
+@startuml
+	class DirecciónRegionalEducación {
+		id : UUID
+		códigoNacional : String
+		descripción : String
+		estados : int
+	}
+	
+	class UnidadDeGestiónEducativa {
+		
+	}
+	
+	DirecciónRegionalEducación *-- UnidadDeGestiónEducativa
+@enduml
